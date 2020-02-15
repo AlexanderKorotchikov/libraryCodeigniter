@@ -8,7 +8,7 @@
 	Автор(ы): <?= $bookList['authors'] ?>
 	<hr>
 	Жанр(ы): <?= $bookList['genres'] ?><br>
-	<button class="back" onclick="window.history.back()">Назад</button>
+	<a class="back" href="/books">Назад</a>
 	<a class="edit" href="/books/edit/<?= $bookList['books_id'] ?>">Редактироваь</a>
 </div>
 
